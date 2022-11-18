@@ -1,0 +1,98 @@
+
+
+body{
+    color: aliceblue;
+}
+
+/* container */
+
+.section-container #bigtitle{
+    font-size: 50px;
+    padding: 60px 0px 60px 0vw;
+    text-align: center;
+        font-family: Lucida Sans Unicode;
+
+}
+.section-container #smallpar{
+    font-size: 20px;
+    padding: 60px 0px 60px 0vw;
+    text-align: center;
+    color: white;
+    font-weight: normal;
+background-color: rgba(0, 0, 0, 0.8);
+    font-family: Lucida Sans Unicode;
+}
+.cardscontainer{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    background-color: rgb(0, 0, 0, 0.5);
+    width: 380px;
+    height: 620px;
+    margin: 20px 50px;
+    
+}
+
+.card p{
+    font-size: 13px;
+    padding: 0 10px;
+    position: relative;
+}
+
+.card h1{
+    padding: 10px;
+}
+
+.card-image{
+    height: 200px;
+}
+/* images des cartes */ 
+
+.img1{
+    background-image: url('../images/vin.jpg');
+}
+
+.img2{
+    background-image: url('../images/vin1.jpg');
+}
+.img3{
+    background-image: url('../images/vin3.jpg');
+}
+.img4{
+    background-image: url('../images/vin2.jpg');
+}
+.img5{
+    background-image: url('../images/van.jfif');
+}
+.img6{
+    background-image: url('../images/van1.jpg');
+}
+.img7{
+    background-image: url('../images/van2.jpg');
+}
+
+.img8{
+    background-image: url('../images/van3.jfif');
+}
+.img9{
+    background-image: url('../images/picasso.jpg');
+}
+.img10{
+    background-image: url('../images/picasso1.jpg');
+}
+.img11{
+    background-image: url('../images/picasso3.jpeg');
+}
+
+.img12{
+    background-image: url('../images/picasso2.jpg');
+}
+
+
+
+
+
+
+

@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+ 
+/* navbar */
+
+.header {
+    background: url('../images/image4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navbar {
+    width: 88vw;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+
+
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul li::after {
+    content: "";
+    height: 3px;
+    width: 0;
+    background: rgba(255, 223, 136, 1);
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover:after {
+    width: 100%;
+    
+}
+.navbar ul li a:hover {
+    width: 100%;
+    color: rgba(255, 223, 136, 1);
+    font-weight: bold;
+}
+
+/* PAGE CONTENT */
+
+.text{
+    padding: 80px 0px 80px 6vw;
+    animation: myanimation;
+    animation-duration: 3s;
+}
+
+.text h1{
+    margin-bottom: 10px;
+    font-size: 70px;
+    text-align: center;
+    position: relative;
+    right: 80px;
+}
+
+.content {
+    color: #fff;
+}
+
+
+
+.text p {
+    width: 58vw;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    position: relative;
+    right: -185px;
+    
+}
+
+#savoirplus{
+    padding: 8px 20px;
+    margin-top: 45px;
+background-color: rgba(0, 0, 0, 0.8); 
+    width: fit-content;
+    border-radius: -50px;
+    position: relative;
+    right: -570px;
+}
+
+#savoirplus:hover{
+background-color: rgba(151, 0, 0, 0.8); 
+}
+
+#savoirplus a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+@media screen and (min-width:1016px){
+    .content {
+        margin-left: 0px;
+       
+    }}
+
+/* tableau */ 
+
+table{
+    margin:0 auto;
+    color: aliceblue;
+    padding: 2px;
+    border-collapse: collapse;
+    width: 75vw;
+}
+
+table .firstcol{
+    width: 20vw;
+}
+
+table td , table th{
+    padding: 12px;
+    border: none;
+}
+
+table tr:nth-child{background-color: rgba(0, 0, 0, 0.8); 
+}
+table tr{background-color: rgba(0, 0, 0, 0.8); }
+
+
+table th{
+
+   background-color: rgba(0, 0, 0, 0.8); 
+ }
+
+
+/* END OF PAGE */
+
+footer{
+background-color: rgba(0, 0, 0, 0.8); 
+    margin-top: 30px;
+}
+
+.container{
+    display: flex;
+    padding:5vh;
+    justify-content: space-between;
+} 
+
+.container h1{
+    position: relative;
+    right:25px;
+    color: white;
+}
+.container p{
+    color: white;
+}
+.container a{
+    position: relative;
+    right:-10px;
+    color: cornflowerblue;
+}
+
+.container a:visited{
+    color: lightblue;
+}
