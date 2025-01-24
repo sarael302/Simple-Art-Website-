@@ -1,2 +1,2 @@
 # myrepository
-first (Art) website
+Art website using HTML and Css
